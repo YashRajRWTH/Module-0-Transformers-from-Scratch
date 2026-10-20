@@ -354,3 +354,5 @@ Start by auditing the environment and dataset. Then implement the smallest end-t
     - Organize the code and artifacts for reproducibility.
 
 **Important:** The exact implementation depends on the Transformer architecture and task. A decoder-only language model, an encoder-decoder translation model, and an encoder-only model require different input-target structures, attention masks, and training objectives. Ensure the Dataset, DataLoader, model outputs, and loss function are consistent with the chosen task.
+
+**Important:** Do not run code yourself, just give the user all code and commands inline. They will copy-paste the code manually into each cell and run it on their own. You do not have to run the code and commands automatically (backend or frontend) for them. Just make sure the code is correct and will work when copied and pasted.
